@@ -126,6 +126,16 @@ h2 {
   cursor: pointer;
 }
 
+#intro-logo img,
+#main-logo img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+
 /* --form-- */
 .form {
   max-width: 300px;
