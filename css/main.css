@@ -59,7 +59,7 @@ h2 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  height: 100dvh; /* overrides on supported browsers */
+  height: 100dvh; 
   background-color: var(--blue);
   color: var(--white);
   z-index: 1;
