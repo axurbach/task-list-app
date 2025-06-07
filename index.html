@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Project: Task List App</title>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- google fonts: DM Sans, Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- welcome overlay -->
+    <div id="welcome-overlay" role="dialog" aria-labelledby="welcome-heading" aria-modal="true">
+      <h2 class="welcome-item-top" id="welcome-heading">Welcome</h2>
+      <button id="intro-logo" aria-label="App Logo">
+        <img src="svg/todo-plus-logo-alt.svg" alt="TODO+ Logo" />
+      </button>
+      <h2 class="welcome-item-mid">Let's get some work done.</h2>
+      <button class="welcome-item-bottom" id="get-started">Get Started</button>
+    </div>
+
+    <!-- main content -->
+    <main>
+      <form id="todo-list" class="form" aria-label="To-do Task Entry Form">
+        <button id="main-logo" aria-label="Main Logo">
+          <img src="svg/todo-plus-logo.svg" alt="TODO+ Logo" />
+        </button>
+        <label for="task-entry" class="form-label">Basic To-Do List</label>
+        <input type="text" id="task-entry" name="task-entry" class="form-input" placeholder="Add a task here..." aria-required="true" />
+        <button id="add-task-btn" class="form-button" type="submit" aria-label="Add Task">+</button>
+      </form>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+      <p role="alert">You're at the task limit (8)</p>
+      <p>&copy; Alexander Urbach</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="javascript/main.js"></script>
+  </div>
+</body>
+</html>
