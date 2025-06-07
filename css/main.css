@@ -115,7 +115,6 @@ h2 {
   all: unset;
   width: 200px;
   max-width: 200px; 
-  height: auto;
   transform: translateY(-200%);
   animation: slide 1.5s ease-out forwards;
   opacity: 0;
@@ -127,7 +126,6 @@ h2 {
 #main-logo {
   width: 112px;
   max-width: 112px; 
-  height: auto;
   margin-top: 3.5rem;
   cursor: pointer;
 }
@@ -301,3 +299,6 @@ h2 {
   max-width: 260px;
 }
 
+#welcome-overlay {
+  display: none; 
+}
