@@ -12,12 +12,16 @@
 
 /* --base styles-- */
 html {
-  font-size: 14px;
+  font-size: 16px;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-main);
   margin: 0 auto;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 button {
@@ -45,7 +49,7 @@ h1 {
 h2 {
   font-size: 2.7rem;
   text-align: center;
-  margin: 0 4rem;
+  margin: 0 1rem;
 }
 
 /* --welcome overlay-- */
@@ -197,7 +201,7 @@ h2 {
 }
 
 .task-li {
-  width: 217.59px !important;             
+  width: 222.38px !important;             
   padding: 1rem 1.2rem;
   font-size: 1rem;
   font-family: var(--font-main);
@@ -288,19 +292,4 @@ input:focus {
   outline: none;
   border-color: black;
   transition: border-color 0.2s ease;
-}
-
-/* --mobile fixes-- */
-html, body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-h2 {
-  margin: 0 1rem;
-}
-
-.task-li {
-  width: 100%;
-  max-width: 260px;
 }
